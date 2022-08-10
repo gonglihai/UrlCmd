@@ -5,7 +5,10 @@
  ```fileclient://mstsc``` 远程桌面
  ```fileclient://mstsc "C:\home\rdp\xxx.rdp"``` 远程桌面到某个rdp文件
  
- 
+ ## 环境需求
+ java运行环境, java8
+
+
  ## 配置
  修改 ```dist/urlCmd.reg``` 第 17 行, 修改 java.exe, 与 jar 包 位置
  
